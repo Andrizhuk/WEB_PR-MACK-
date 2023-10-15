@@ -1,0 +1,226 @@
+body {
+    background-color: silver;
+    margin: 0;
+    padding: 0;
+}
+
+.keyfeatures {
+    color: aliceblue;
+    font-family: "Arial";
+    font-size: 40px;
+    text-align: center;
+}
+
+.arial_text {
+    font-family: "Arial";
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 1.2;
+}
+
+.bold_line {
+    height: 150px;
+    background-color: #353535;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.photo {
+    width: 310px;
+    height: 190px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.photo_1 {
+    background-image: url();
+    top: 220px;
+    left: 500px;
+}
+
+.photo_2 {
+    background-image: url();
+    top: 220px;
+    left: 870px;
+}
+
+.photo_3 {
+    background-image: url();
+    top: 220px;
+    left: 1200px;
+}
+
+.photo_4 {
+    background-image: url();
+    top: 460px;
+    left: 520px;
+}
+
+.photo_5 {
+    background-image: url();
+    top: 460px;
+    left: 870px;
+}
+
+.photo_6 {
+    background-image: url();
+    top: 460px;
+    left: 1190px;
+}
+
+.photo_1::after {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: "Arial";
+    font-size: 20px;
+    top: 140px;
+    left: 60px;
+    content: "MARKETING";
+    z-index: 1;
+}
+
+.photo_2::after {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: "Arial";
+    font-size: 20px;
+    top: 140px;
+    left: 10px;
+    content: "CONSULTANCY";
+    z-index: 1;
+}
+
+.photo_3::after {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: "Arial";
+    font-size: 20px;
+    top: 140px;
+    left: 40px;
+    content: "EFFECTIVE";
+    z-index: 1;
+}
+
+.photo_4::after {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: "Arial";
+    font-size: 20px;
+    top: 140px;
+    left: 40px;
+    content: "STRATEGY";
+    z-index: 1;
+}
+
+.photo_5::after {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: "Arial";
+    font-size: 20px;
+    top: 140px;
+    left: 40px;
+    content: "AGILE";
+    z-index: 1;
+}
+
+.photo_6::after {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: "Arial";
+    font-size: 20px;
+    top: 140px;
+    left: 55px;
+    content: "SUPPORT";
+    z-index: 1;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-family: "Arial";
+    font-size: 15px;
+    position: absolute;
+    top: 830px;
+    left: 700px;
+    line-height: 0.5;
+    text-align: center;
+}
+
+.border_1 {
+    position: fixed;
+    top: 190px;
+    left: 460px;
+    width: 16%;
+    height: 22%;
+    background-color: rgb(105, 114, 123);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.border_2 {
+    position: fixed;
+    top: 190px;
+    left: 800px;
+    width: 16%;
+    height: 22%;
+    background-color: rgb(105, 114, 123);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.border_3 {
+    position: fixed;
+    top: 190px;
+    left: 1140px;
+    width: 16%;
+    height: 22%;
+    background-color: rgb(105, 114, 123);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.border_4 {
+    position: fixed;
+    top: 430px;
+    left: 1140px;
+    width: 16%;
+    height: 22%;
+    background-color: rgb(105, 114, 123);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.border_5 {
+    position: fixed;
+    top: 430px;
+    left: 460px;
+    width: 16%;
+    height: 22%;
+    background-color: rgb(105, 114, 123);
+    border-radius: 10px;
+}
+
+.border_6 {
+    position: fixed;
+    top: 430px;
+    left: 800px;
+    width: 16px;
+    height: 22%;
+    background-color: rgb(105, 114, 123);
+    border-radius: 10px;
+}
+
+.text_fone {
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.2;
+    position: fixed;
+    top: 850px;
+    left: 750px;
+}
