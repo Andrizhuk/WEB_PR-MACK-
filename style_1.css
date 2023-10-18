@@ -1,226 +1,115 @@
 body {
-    background-color: silver;
+    background-color: hsl(216deg, 10.87%, 18.04%);
     margin: 0;
-    padding: 0;
 }
 
-.keyfeatures {
-    color: aliceblue;
-    font-family: "Arial";
+table {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.KEYFEATURES {
     font-size: 40px;
-    text-align: center;
-}
-
-.arial_text {
-    font-family: "Arial";
-    font-style: italic;
-    font-size: 20px;
+    margin-top: 100px;
     text-align: center;
     color: aliceblue;
-    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.bold_line {
-    height: 150px;
-    background-color: #353535;
-    border: none;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.photo {
-    width: 310px;
-    height: 190px;
-    border-radius: 10px;
-    position: absolute;
-}
-
-.photo_1 {
-    background-image: url();
-    top: 220px;
-    left: 500px;
-}
-
-.photo_2 {
-    background-image: url();
-    top: 220px;
-    left: 870px;
-}
-
-.photo_3 {
-    background-image: url();
-    top: 220px;
-    left: 1200px;
-}
-
-.photo_4 {
-    background-image: url();
-    top: 460px;
-    left: 520px;
-}
-
-.photo_5 {
-    background-image: url();
-    top: 460px;
-    left: 870px;
-}
-
-.photo_6 {
-    background-image: url();
-    top: 460px;
-    left: 1190px;
-}
-
-.photo_1::after {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: "Arial";
-    font-size: 20px;
-    top: 140px;
-    left: 60px;
-    content: "MARKETING";
-    z-index: 1;
-}
-
-.photo_2::after {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: "Arial";
-    font-size: 20px;
-    top: 140px;
-    left: 10px;
-    content: "CONSULTANCY";
-    z-index: 1;
-}
-
-.photo_3::after {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: "Arial";
-    font-size: 20px;
-    top: 140px;
-    left: 40px;
-    content: "EFFECTIVE";
-    z-index: 1;
-}
-
-.photo_4::after {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: "Arial";
-    font-size: 20px;
-    top: 140px;
-    left: 40px;
-    content: "STRATEGY";
-    z-index: 1;
-}
-
-.photo_5::after {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: "Arial";
-    font-size: 20px;
-    top: 140px;
-    left: 40px;
-    content: "AGILE";
-    z-index: 1;
-}
-
-.photo_6::after {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: "Arial";
-    font-size: 20px;
-    top: 140px;
-    left: 55px;
-    content: "SUPPORT";
-    z-index: 1;
-}
-
-.text {
-    color: rgb(255, 255, 255);
-    font-family: "Arial";
-    font-size: 15px;
-    position: absolute;
-    top: 830px;
-    left: 700px;
-    line-height: 0.5;
-    text-align: center;
-}
-
-.border_1 {
-    position: fixed;
-    top: 190px;
-    left: 460px;
-    width: 16%;
-    height: 22%;
-    background-color: rgb(105, 114, 123);
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.border_2 {
-    position: fixed;
-    top: 190px;
-    left: 800px;
-    width: 16%;
-    height: 22%;
-    background-color: rgb(105, 114, 123);
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.border_3 {
-    position: fixed;
-    top: 190px;
-    left: 1140px;
-    width: 16%;
-    height: 22%;
-    background-color: rgb(105, 114, 123);
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.border_4 {
-    position: fixed;
-    top: 430px;
-    left: 1140px;
-    width: 16%;
-    height: 22%;
-    background-color: rgb(105, 114, 123);
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.border_5 {
-    position: fixed;
-    top: 430px;
-    left: 460px;
-    width: 16%;
-    height: 22%;
-    background-color: rgb(105, 114, 123);
-    border-radius: 10px;
-}
-
-.border_6 {
-    position: fixed;
-    top: 430px;
-    left: 800px;
-    width: 16px;
-    height: 22%;
-    background-color: rgb(105, 114, 123);
-    border-radius: 10px;
-}
-
-.text_fone {
-    font-family: "Arial";
-    color: rgb(255, 255, 255);
+.text_1 {
     font-size: 15px;
     text-align: center;
-    line-height: 1.2;
-    position: fixed;
-    top: 850px;
-    left: 750px;
+    color: rgb(118, 117 , 117);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.text_2 {
+    color: aliceblue;
+    margin-top: -81px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    background-color: hsl(0deg, 0%, 20%);
+    width: 100%;
+    height: 130px;
+    margin-top: 120px;
+}
+
+.first {
+    width: 300px;
+    height: 180px;
+}
+
+.second {
+    width: 300px;
+    height: 180px;
+}
+
+.third {
+    width: 300px;
+    height: 180px;
+}
+
+.a1 {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(214.29deg, 9.46% 29.02%);
+    border-radius: 10px;
+}
+
+.a2 {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(214.29deg, 9.46% 29.02%);
+    border-radius: 10px;
+}
+
+.a3 {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(214.29deg, 9.46% 29.02%);
+    border-radius: 10px;
+}
+
+.a1_text {
+    text-align: center;
+    margin-top: -55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a2_text {
+    text-align: center;
+    margin-top: -55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a3_text {
+    text-align: center;
+    margin-top: -55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1 {
+    width: 80px;
+    margin-top: 35px;
+    margin-left: 115px;
+}
+
+.img2 {
+    width: 80px;
+    margin-top: 35px;
+    margin-left: 115px;
+}
+
+.img3 {
+    width: 80px;
+    margin-top: 35px;
+    margin-left: 115px;
+}
+
+.t1 {
+    color: aliceblue;
+}
+
