@@ -6,6 +6,7 @@ body {
 table {
     margin: auto;
     margin-top: 50px;
+    border-spacing: 10px;
 }
 
 .KEYFEATURES {
@@ -38,18 +39,24 @@ table {
 }
 
 .first {
+    background-color: blue;
     width: 300px;
     height: 180px;
+    border-radius: 12px;
 }
 
 .second {
+    background-color: blue;
     width: 300px;
     height: 180px;
+    border-radius: 12px;
 }
 
 .third {
+    background-color: blue;
     width: 300px;
     height: 180px;
+    border-radius: 12px;
 }
 
 .a1 {
